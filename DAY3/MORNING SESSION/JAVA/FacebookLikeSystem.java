@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class FaceBookLikeSystem{
+public class FacebookLikeSystem {
 
 public static String[] likes(String[] names){
 

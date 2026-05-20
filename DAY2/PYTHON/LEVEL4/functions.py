@@ -1,7 +1,5 @@
 def sum(num_one, num_two):
     return num_one + num_two
-    
-    
 def even(num):
     if (num % 2 == 0):
         return True
@@ -22,7 +20,12 @@ def area(length, width):
 def interest(principal, time, rate):
     rate = (principal * time * rate) / 100   
     return rate
+def reverse(value):
+    number = value
+    while(number > 0)
+    number 
     
+    return length * width        
     
     
           

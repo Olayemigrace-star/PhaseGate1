@@ -11,7 +11,7 @@ public class FacebookLikeSystemTest{
         
         String[] expectednames = {"yemi", "bolu"};
         
-        String actual = FacebookLikeSystem.likes(names);
+        String[] actual = FacebookLikeSystem.likes(names);
         assertArrayEquals(expectednames, actual);
         
         
