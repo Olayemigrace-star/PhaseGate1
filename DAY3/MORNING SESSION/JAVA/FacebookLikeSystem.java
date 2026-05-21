@@ -9,17 +9,18 @@ String[] records = new String [names.length];
 
 int j = 0;
 for (int i = 0; i < names.length; i++){
-//if (names[i] > 3){
-//return names[0] && names[1] +([j++] - 2);
-//}
 if (names.length == 2){
   records[j++] = names[i];
 
 }
-//else if (names[i] > 3){
 
-//
-//}
+if (names[i] > 3){
+return names[0] && names[1] +([j++] - 2);
+}
+else if (names[i] > 3){
+
+
+}
 //
 }
 return records;
